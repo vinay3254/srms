@@ -1,0 +1,15 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "Full Stack Student Management System using Express + React",
+  "scripts": {
+    "install:all": "npm install && cd client && npm install",
+    "server": "cd server && node index.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
